@@ -1,10 +1,7 @@
 #include <Arduino.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
-
-const char* ssid = "42-N-Resident";
-const char* password = "REDACTED";
-const char* serverURL = "http://172.16.22.218:5000/data";
+#include "secrets.h"
 
 #define ADC_PIN 34
 #define SAMPLES 1000

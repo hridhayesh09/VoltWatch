@@ -4,7 +4,7 @@ VoltWatch is a custom-designed PCB system that monitors residential power qualit
 ## Hardware
 - ESP32 WROOM-32 microcontroller
 - ZMPT101B AC voltage sensor
-- Custom PCB designed in KiCad (in progress)
+- Custom PCB designed and routed in KiCad, with Gerber and drill files in hardware/
 
 ## Stack
 - Firmware: Embedded C on ESP32 (PlatformIO)
